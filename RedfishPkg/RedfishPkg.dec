@@ -55,6 +55,11 @@
   #
   RedfishContentCodingLib|Include/Library/RedfishContentCodingLib.h
 
+  ##  @libraryclass  Provides the library functions to access Redfish Platform
+  #   Config protocol.
+  #
+  RedfishPlatformConfigLib|Include/Library/RedfishPlatformConfigLib.h
+
   ##  @libraryclass  Provides the library functions to parse IFR binary data.
   #
   HiiUtilityLib|Include/Library/HiiUtilityLib.h
