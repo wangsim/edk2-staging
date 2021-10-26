@@ -17,5 +17,7 @@
   RedfishCrtLib|RedfishPkg/PrivateLibrary/RedfishCrtLib/RedfishCrtLib.inf
   JsonLib|RedfishPkg/Library/JsonLib/JsonLib.inf
   RedfishLib|RedfishPkg/PrivateLibrary/RedfishLib/RedfishLib.inf
+  HiiUtilityLib|RedfishPkg/Library/HiiUtilityLib/HiiUtilityLib.inf
+  RedfishPlatformConfigLib|RedfishPkg/Library/RedfishPlatformConfigLib/RedfishPlatformConfigLib.inf
 !endif
 

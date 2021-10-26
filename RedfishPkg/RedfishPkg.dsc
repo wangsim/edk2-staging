@@ -38,6 +38,8 @@
   HttpIoLib|NetworkPkg/Library/DxeHttpIoLib/DxeHttpIoLib.inf
   NetLib|NetworkPkg/Library/DxeNetLib/DxeNetLib.inf
   DpcLib|NetworkPkg/Library/DxeDpcLib/DxeDpcLib.inf
+  HiiLib|MdeModulePkg/Library/UefiHiiLib/UefiHiiLib.inf
+  UefiHiiServicesLib|MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib.inf
   RedfishPlatformCredentialLib|RedfishPkg/Library/PlatformCredentialLibNull/PlatformCredentialLibNull.inf
   RedfishContentCodingLib|RedfishPkg/Library/RedfishContentCodingLibNull/RedfishContentCodingLibNull.inf
 
@@ -58,5 +60,7 @@
   RedfishPkg/PrivateLibrary/RedfishCrtLib/RedfishCrtLib.inf
   RedfishPkg/Library/JsonLib/JsonLib.inf
   RedfishPkg/PrivateLibrary/RedfishLib/RedfishLib.inf
+  RedfishPkg/Library/HiiUtilityLib/HiiUtilityLib.inf
+  RedfishPkg/Library/RedfishPlatformConfigLib/RedfishPlatformConfigLib.inf
 
   !include RedfishPkg/Redfish.dsc.inc

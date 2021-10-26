@@ -19,4 +19,6 @@
   RedfishPkg/RedfishCredentialDxe/RedfishCredentialDxe.inf
   RedfishPkg/RedfishDiscoverDxe/RedfishDiscoverDxe.inf
   RedfishPkg/RedfishConfigHandler/RedfishConfigHandlerDriver.inf
+  RedfishPkg/RedfishPlatformConfigDxe/RedfishPlatformConfigDxe.inf
+  MdeModulePkg/Universal/RegularExpressionDxe/RegularExpressionDxe.inf
 !endif
