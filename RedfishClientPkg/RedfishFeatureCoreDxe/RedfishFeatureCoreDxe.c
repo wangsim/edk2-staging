@@ -357,6 +357,7 @@ RedfishFeatureCoreEntryPoint (
 
   ZeroMem ((VOID *)&mFeatureDriverStartupContext, sizeof (REDFISH_FEATURE_STARTUP_CONTEXT));
   mFeatureDriverStartupContext.This = &mRedfishFeatureProtocol;
+  mFeatureDriverStartupContext.Action = CallbackActionStartOperation;
 
   Status = gBS->CreateEventEx (
                 EVT_NOTIFY_SIGNAL,
