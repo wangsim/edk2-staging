@@ -36,15 +36,14 @@
 #define REDFISH_DEBUG_TRACE             DEBUG_INFO
 
 typedef struct _REDFISH_COLLECTION_PRIVATE {
-  EFI_REST_JSON_STRUCTURE_PROTOCOL    *JsonStructProtocol;
-  EDKII_REDFISH_FEATURE_PROTOCOL      *FeatureProtocol;
-  REDFISH_SERVICE                     RedfishService;
+  EFI_REST_JSON_STRUCTURE_PROTOCOL      *JsonStructProtocol;
+  EDKII_REDFISH_FEATURE_PROTOCOL        *FeatureProtocol;
+  REDFISH_SERVICE                       RedfishService;
   EDKII_REDFISH_CONFIG_HANDLER_PROTOCOL ConfigHandler;
-  EFI_EVENT                           Event;
-  CHAR8                               *CollectionPath;
-  CHAR8                               *CollectionJson;
-  REDFISH_PAYLOAD                     CollectionPayload;
-  REDFISH_RESPONSE                    RedResponse;
+  CHAR8                                 *CollectionPath;
+  CHAR8                                 *CollectionJson;
+  REDFISH_PAYLOAD                       CollectionPayload;
+  REDFISH_RESPONSE                      RedResponse;
 } REDFISH_COLLECTION_PRIVATE;
 
 #define REDFISH_COLLECTION_PRIVATE_DATA_FROM_PROTOCOL(This) \
