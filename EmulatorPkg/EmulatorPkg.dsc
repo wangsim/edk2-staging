@@ -42,6 +42,16 @@
   #
   DEFINE REDFISH_ENABLE = TRUE
 
+!if $(REDFISH_ENABLE) == TRUE
+  #
+  # Allow HTTP connection for Redfish profile simulator.
+  #
+  DEFINE NETWORK_SNP_ENABLE             = TRUE
+  DEFINE NETWORK_IP6_ENABLE             = TRUE
+  DEFINE NETWORK_HTTP_ENABLE            = TRUE
+  DEFINE NETWORK_ALLOW_HTTP_CONNECTIONS = TRUE
+!endif
+
 [SkuIds]
   0|DEFAULT
 
