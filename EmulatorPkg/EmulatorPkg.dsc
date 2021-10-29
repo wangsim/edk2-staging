@@ -41,6 +41,8 @@
   # Redfish definition
   #
   DEFINE REDFISH_ENABLE = TRUE
+  DEFINE REDFISH_CLIENT = FALSE
+
 
 !if $(REDFISH_ENABLE) == TRUE
   #
@@ -491,6 +493,7 @@
   EmulatorPkg/Hii2RedfishMemoryDxe/Hii2RedfishMemoryDxe.inf
 !endif
 !include RedfishPkg/Redfish.dsc.inc
+!include RedfishClientPkg/RedfishClient.dsc.inc
 
 [BuildOptions]
   #
