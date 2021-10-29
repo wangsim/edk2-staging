@@ -40,7 +40,7 @@
   #
   # Redfish definition
   #
-  DEFINE REDFISH_ENABLE = FALSE
+  DEFINE REDFISH_ENABLE = TRUE
 
 [SkuIds]
   0|DEFAULT
