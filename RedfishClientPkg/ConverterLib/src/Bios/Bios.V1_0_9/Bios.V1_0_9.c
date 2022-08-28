@@ -367,17 +367,17 @@ Error:;
 }
 static RedfishCS_status CS_To_JSON_Attributes(json_t *CsJson, char *Key, RedfishBios_V1_0_9_Attributes_CS *CSPtr)
 {
-  json_t *CsParentJson;
+  //json_t *CsParentJson;
 
   if (CSPtr == NULL) {
     return RedfishCS_status_success;
   }
 
-  CsParentJson = CsJson;
-  CsJson = json_object();
-  if (CsJson == NULL) {
-    return RedfishCS_status_unsupported;
-  }
+  //CsParentJson = CsJson;
+  //CsJson = json_object();
+  //if (CsJson == NULL) {
+  //  return RedfishCS_status_unsupported;
+  //}
 
   // Check if this is RedfishCS_Type_CS_EmptyProp.
   CsEmptyPropLinkToJson(CsJson, Key, &CSPtr->Prop);
