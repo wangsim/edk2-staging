@@ -1,6 +1,6 @@
 /** @file
 
-  The implementation of EDKII Redfidh Platform Config Protocol.
+  The implementation of EDKII Redfish Platform Config Protocol.
 
   (C) Copyright 2021-2022 Hewlett Packard Enterprise Development LP<BR>
 
