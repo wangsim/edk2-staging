@@ -2,14 +2,13 @@
   Redfish feature driver implementation - Memory
 
   (C) Copyright 2020-2022 Hewlett Packard Enterprise Development LP<BR>
+  Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
 
   SPDX-License-Identifier: BSD-2-Clause-Patent
 
 **/
 
 #include "../Common/MemoryCommon.h"
-
-extern REDFISH_RESOURCE_COMMON_PRIVATE *mRedfishResourcePrivate;
 
 EFI_HANDLE medfishResourceConfigProtocolHandle;
 

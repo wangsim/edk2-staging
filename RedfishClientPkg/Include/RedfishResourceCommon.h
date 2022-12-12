@@ -2,6 +2,7 @@
   Redfish feature driver common header file.
 
   (C) Copyright 2020-2022 Hewlett Packard Enterprise Development LP<BR>
+  Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
 
   SPDX-License-Identifier: BSD-2-Clause-Patent
 
@@ -57,6 +58,8 @@ typedef struct _REDFISH_RESOURCE_COMMON_PRIVATE {
   RESOURCE_INFORMATION_EXCHANGE           *InformationExchange;
   EFI_STRING                              RedfishVersion;
 } REDFISH_RESOURCE_COMMON_PRIVATE;
+
+extern REDFISH_RESOURCE_COMMON_PRIVATE  *mRedfishResourcePrivate;
 
 #define REDFISH_RESOURCE_COMMON_PRIVATE_DATA_FROM_CONFIG_PROTOCOL(This) \
           BASE_CR ((This), REDFISH_RESOURCE_COMMON_PRIVATE, ConfigHandler)
